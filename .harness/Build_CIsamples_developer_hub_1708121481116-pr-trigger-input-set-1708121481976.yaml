@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CIsamples_developer_hub_1708121481116-pr-trigger-input-set
+  identifier: Build_CIsamples_developer_hub_1708121481116prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Marketing_Playground
+  pipeline:
+    identifier: Build_CIsamples_developer_hub_1708121481116
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
