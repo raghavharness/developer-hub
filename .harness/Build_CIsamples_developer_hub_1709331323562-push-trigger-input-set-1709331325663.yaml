@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CIsamples_developer_hub_1709331323562-push-trigger-input-set
+  identifier: Build_CIsamples_developer_hub_1709331323562pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Marketing_Playground
+  pipeline:
+    identifier: Build_CIsamples_developer_hub_1709331323562
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
